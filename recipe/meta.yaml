@@ -13,7 +13,7 @@ build:
   # can't be noarch due to py2to3
   script: {{ PYTHON }} -m pip install . -vv
   number: 2
-  skip: True  # [py>=310 or win]
+  skip: True  # [py>=311 or win or py<=39]
 
 requirements:
   host:
