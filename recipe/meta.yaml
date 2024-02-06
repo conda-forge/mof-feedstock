@@ -21,7 +21,7 @@ requirements:
     - pip
   run:
     - python
-    - numpy <=1.25
+    - numpy <=1.24
     - numba
     - ngmix >=1,<2
     - esutil
